@@ -1,0 +1,153 @@
+.introduction-card {
+  width: 75%;
+	max-width: 100em;
+  padding: 3em 0em;
+  margin: 0 auto;
+}
+
+.introduction-card p {
+  font-size: 1.5em;
+}
+
+.introduction-card h1 {
+  font-size: 2em;
+  font-weight: 550;
+}
+
+.section-header {
+  background: linear-gradient(to right, white, 20%, #d9f1fa, 80%, white);
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  line-height: 0em;
+  font-size: 1.7em;
+  margin: 2em 0em;
+}
+
+.section-header h1 {
+  font-weight: 500;
+}
+
+.project-card {
+  display: grid;
+  width: 60%;
+	max-width: 100em;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  margin: 0 auto;
+}
+
+.project-card a {
+  line-height: 3em;
+  font-size: 1.2em;
+  color: rgb(157, 157, 157);
+  
+}
+
+.project-card p {
+  margin: 0;
+  text-align: justify;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+.project-card h1{
+	margin: 0;
+  font-weight: 550;
+	font-size: 1.6em;
+	line-height: 1.5;
+  padding-bottom: 0.5em;
+}
+
+.project-card img{
+  float: left;
+  padding-right: 30px;
+  max-width: 55%;
+}
+
+.highlight-grid {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	width: 75%;
+  height: 800px;
+}
+
+.highlight-grid li {
+	position: relative;
+  margin: 0 auto;
+  display: inline-block;
+	float: none;
+	overflow: hidden;
+  padding: 15px;
+	width: 33%; /* Fallback */
+	/* width: -webkit-calc(100% / 3);
+	width: calc(100% / 3); */
+}
+
+.highlight-grid li a, 
+.highlight-grid li a img 
+ {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+}
+
+/* .highlight-grid li a img {
+	max-width: 100%;
+} */
+
+/* Flexbox is used for centering the heading */
+.highlight-grid li a div {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	right: 15px;
+	bottom: 15px;
+	background: rgba(0, 0, 0, 0.59);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+
+.highlight-grid li a:hover div {
+	opacity: 1;
+}
+
+.highlight-grid li a div h3 {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	padding: 0 10px;
+}
+
+
+
+@media screen and (max-width: 1190px) {
+	.highlight-grid li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.highlight-grid li {
+		width: 100%;
+	}
+}
+
+/* hr {
+  margin: 0% 8em;
+} */
+
+
+

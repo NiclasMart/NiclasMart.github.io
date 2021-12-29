@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio - Niclas Mart</title>
+    <link rel="stylesheet" type="text/css" href="gamePage.css" />
+    <link rel="stylesheet" type="text/css" href="../default.css" />
+    
+  </head>
+  <body>
+    <div >
+      <div class="cbp-af-header cbp-af-header-shrink">
+	      <div class="cbp-af-inner">
+		      <h1>Niclas Mart</h1>
+		      <nav>
+            <a href="../index.html">Portfolio</a>
+            <a href="../resume.html">Resumé</a> 
+            <a href="../contact.html">Contact</a>
+          </nav>
+          <h2>Game Programmer | Unity</h2>
+        </div>
+      </div>
+      <div class="main">    
+        <section>
+          <div class="game-card">                 
+            <div class="slideshow">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="../media/ADG/picture1.png" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="../media/ADG/picture2.png" style="width:100%">
+                  <div class="text"> The game board consists of 144 fields. The players start in opposite corners. If one player captures more fields than the other, he wins. </div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="../media/ADG/picture4.png" style="width:100%">
+                  <div class="text">In each round, the player rolls the dice and can mark the corresponding area on the game board. This area must be connected to his already captured fields.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="../media/ADG/picture6.png" style="width:100%">
+                  <div class="text">The area can only be placed, if enough space is available. Otherwise the turn must be skipped. </div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="../media/ADG/picture5.png" style="width:100%">
+                  <div class="text">The game checks if a player has surrounded an area so that the other player cannot reach it. These fields count as captured and if a player has more than 72 fields in his color, he wins. </div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="../media/ADG/picture3.png" style="width:100%">
+                  <div class="text">Rules and controls. </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+              </div>
+            </div>
+            <div class="description">
+              <h1>Area-Dice-Game</h1>
+              <h2>Description</h2>
+              <p>This game was developed in C++ and with the Microsoft Foundation Class Library (MFC). It was a project within the second university semester in programming. The goal of the game is to capture more fields than your opponent. You can play Couch Coop with a friend or against a computer enemy. </p>
+              
+              <h2>Date</h2>
+              <p>04/2019 - 06/2019</p>
+              <h2>Links</h2>
+              <ul>
+                <li><a href="https://github.com/NiclasMart/AreaDiceGame">Project on GitHub</a></li>
+                <li><a href="../media/ADG/Belegaufgabe 2019.pdf">Task</a></li>
+              </ul>
+              
+            </div>
+            
+          </div>
+          <div class="back-btn">
+            <a href="TactilInteractionProject.html">< Previouse</a>
+            <a href="Foody.html"> Next ></a>
+          </div>
+
+        </section> 
+        
+      </div>
+      <!-- <div class="footer">
+          <p>Footer</p>
+        </div> -->
+		</div>
+    <script src="classie.js"></script>
+    <!-- <script src="header.js"></script> -->
+    <script src="pictureSlider.js"></script>
+  </body>
+</html>

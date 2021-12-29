@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio - Niclas Mart</title>
+    <link rel="stylesheet" type="text/css" href="gamePage.css" />
+    <link rel="stylesheet" type="text/css" href="../default.css" />
+    
+  </head>
+  <body>
+    <div >
+      <div class="cbp-af-header cbp-af-header-shrink">
+	      <div class="cbp-af-inner">
+		      <h1>Niclas Mart</h1>
+		      <nav>
+            <a href="../index.html">Portfolio</a>
+            <a href="../resume.html">Resumé</a> 
+            <a href="../contact.html">Contact</a>
+          </nav>
+          <h2>Game Programmer | Unity</h2>
+        </div>
+      </div>
+      <div class="main">    
+        <section>
+          <div class="game-card">                 
+            <div class="slideshow">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 7</div>
+                  <img src="../media/ItD/picture1.png" style="width:100%">
+                  <div class="text">The main hub is the entrance to an ancient ruin.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 7</div>
+                  <img src="../media/ItD/picture2.png" style="width:100%">
+                  <div class="text">There are different items the player can equip with various stat modifiers and effects.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 7</div>
+                  <img src="../media/ItD/picture3.png" style="width:100%">
+                  <div class="text">The dungeon has 10 layers and each consists of three maps. You have to reach a depth layer to unlock it within this selection table. </div>
+                </div>
+            
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 7</div>
+                  <img src="../media/ItD/picture4.png" style="width:100%">
+                  <div class="text">The combat system is slower than in Diablo and requires you to dodge many attacks and find the right timing to attack the enemy.</div>
+                </div>
+
+                 <div class="mySlides fade">
+                  <div class="numbertext">5 / 7</div>
+                  <img src="../media/ItD/picture5.png" style="width:100%">
+                  <div class="text">The loot has 4 rarity levels. The more enemies you defeat, the better the loot becomes.</div>
+                </div>
+
+                 <div class="mySlides fade">
+                  <div class="numbertext">6 / 7</div>
+                  <img src="../media/ItD/picture6.png" style="width:100%">
+                  <div class="text">There are different weapons in the game. Each with another attack timing and damage radius, indicated by the blue area on the ground.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">7 / 7</div>
+                  <img src="../media/ItD/picture7.png" style="width:100%">
+                  <div class="text">The dungeon maps are procedural generated, but each layer has its own unique room types, enemy set and look.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+              </div>
+            </div>
+            <div class="description">
+              <h1>Into The Depth</h1>
+              <h2>Description</h2>
+              <p>Since I love Hack and Slay games like Diablo or Path of Exile, I wanted to create one myself. This project is the biggest solo project I've worked on so far and it's far from finished. It was primarily for learning and I never intended to release it. The primary goal is to get deeper into the dungeon and defeat the final boss. There are 10 depth levels and to progress deeper, you have to complete the levels before. If you die, you lose all the new found loot. So the core game loop consists of leveling up, find better gear and getting stronger.
+
+              </p>
+              <h2>Main Features</h2>
+              <ul>
+                <li><p>procedural generated dungeons <a href="DungeonGeneration.html">(from my PDG-Project)</a></p></li>
+                <li><p>loot system with different rarities and stat modifiers</p></li>
+                <li><p>character stats system like armor, critical hit damage or magical damage</p></li>
+                <li><p>ability system</p></li>   
+              </ul>
+              <h2>Date</h2>
+              <p>03/2021 - 12/2021</p>
+              <h2>Links</h2>
+              <ul>
+                <li><a href="https://github.com/NiclasMart/RPGPrototype">Project on GitHub</a></li>
+              </ul>
+              
+            </div>
+            
+          </div>
+          <div class="back-btn">
+            <a href="#">< Previouse</a>
+            <a href="CyberGolf.html"> Next ></a>
+          </div>
+
+        </section> 
+        
+      </div>
+      <!-- <div class="footer">
+          <p>Footer</p>
+        </div> -->
+		</div>
+    <script src="classie.js"></script>
+    <!-- <script src="header.js"></script> -->
+    <script src="pictureSlider.js"></script>
+  </body>
+</html>

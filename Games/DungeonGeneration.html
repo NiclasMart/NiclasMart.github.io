@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio - Niclas Mart</title>
+    <link rel="stylesheet" type="text/css" href="gamePage.css" />
+    <link rel="stylesheet" type="text/css" href="../default.css" />
+    
+  </head>
+  <body>
+    <div >
+      <div class="cbp-af-header cbp-af-header-shrink">
+	      <div class="cbp-af-inner">
+		      <h1>Niclas Mart</h1>
+		      <nav>
+            <a href="../index.html">Portfolio</a>
+            <a href="../resume.html">Resumé</a> 
+            <a href="../contact.html">Contact</a>
+          </nav>
+          <h2>Game Programmer | Unity</h2>
+        </div>
+      </div>
+      <div class="main">    
+        <section>
+          <div class="game-card">                 
+            <div class="slideshow">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 8</div>
+                  <img src="../media/BA/Picture1.png" style="width:100%">
+                  <div class="text">The generator creates a dungeon-like structure in a grid space of predefined asset tiles.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 8</div>
+                  <img src="../media/BA/Picture2.png" style="width:100%">
+                  <div class="text">The structure is procedural generated, but can be influenced by different parameters.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 8</div>
+                  <img src="../media/BA/Picture7.png" style="width:100%">
+                  <div class="text">The parameters allow a precise manipulation of the resulting structure. </div>
+                </div>
+            
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 8</div>
+                  <img src="../media/BA/Picture3.png" style="width:100%">
+                  <div class="text">Example of a dungeon structure by using different parameters.</div>
+                </div>
+
+                 <div class="mySlides fade">
+                  <div class="numbertext">5 / 8</div>
+                  <img src="../media/BA/Picture4.png" style="width:100%">
+                  <div class="text">Example of a dungeon structure by using different parameters.</div>
+                </div>
+
+                 <div class="mySlides fade">
+                  <div class="numbertext">6 / 8</div>
+                  <img src="../media/BA/Picture5.png" style="width:100%">
+                  <div class="text">The use of predefined blueprints enables the generation of special shapes.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">7 / 8</div>
+                  <img src="../media/BA/Picture6.png" style="width:100%">
+                  <div class="text">Blueprints can also be used to alter the shape of rooms. The red line shows the calculated path through the dungeon.</div>
+                </div>
+
+                 <div class="mySlides fade">
+                  <div class="numbertext">8 / 8</div>
+                  <img src="../media/BA/Picture8.png" style="width:100%">
+                  <div class="text">Because the generator works grid-based, even sized predefined tiles can be used to create floors and walls, giving the game designer more control over the look.</div>
+                </div>
+
+                
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+              </div>
+            </div>
+            <div class="description">
+              <h1>Procedural Dungeon Generation</h1>
+              <h2>Description</h2>
+              <p>The generator is written in C# and can be used in Unity. It procedurally generates dungeon-like structures for top down based games like Diablo at runtime. For dungeons with less than 300 rooms, the generation is done in under a second. The generator provides a wide range of different parameters to manipulate the structure and shape of the resulting dungeon, giving the game designer control over the outcome. The Algorithm works on a grid, so predefined asset tiles can be used to generate floors and walls.    </p>
+              <h2>Date</h2>
+              <p>05/2021 - 08/2021</p>
+              <h2>Links</h2>
+              <ul>
+                <li><a href="https://github.com/NiclasMart/DungeonGeneration">Project on GitHub</a></li>
+                <li><a href="../media/BA/Bachelorarbeit_NiclasMart.pdf">bachelor thesis</a></li>
+              </ul>
+              
+            </div>
+            
+          </div>
+          <div class="back-btn">
+            <a href="RuffyAndTheRiverside.html">< Previouse</a>
+            <a href="TactilInteractionProject.html"> Next ></a>
+          </div>
+
+        </section> 
+        
+      </div>
+      <!-- <div class="footer">
+          <p>Footer</p>
+        </div> -->
+		</div>
+    <script src="classie.js"></script>
+    <!-- <script src="header.js"></script> -->
+    <script src="pictureSlider.js"></script>
+  </body>
+</html>

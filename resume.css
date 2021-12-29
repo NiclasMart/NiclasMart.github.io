@@ -1,0 +1,176 @@
+/* html {
+  height: 100%;  
+} */
+
+body {
+  min-height: 100%;  
+  background: #eee;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+img {
+  max-height: 200px;
+  float: right;
+  margin-right: 10px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+.container-resume {
+  max-width: 1200px;   
+  background: #fff;
+  margin: 0px auto 0px; 
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 40px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+  
+.full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.first-name {
+  font-weight: 700;
+}
+
+.last-name {
+  font-weight: 300;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+
+.email ,
+.phone,
+.location {
+  color: #999;
+  font-weight: 300;
+} 
+
+.separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+
+.position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.about {
+  margin: 30px 0 70px;
+}
+
+.details {
+  line-height: 20px;
+}
+
+
+.section {
+  margin-bottom: 40px;  
+}
+
+.section:last-of-type {
+  margin-bottom: 0px;  
+}
+
+.section__title {
+  letter-spacing: 2px;
+  color: #54AFE4;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+.section__list-item {
+  padding-bottom: 40px;
+}
+
+.info-container {
+  padding-left: 10px;
+}
+
+.duration {
+  font-size: 0.9em;
+  color: rgb(95, 95, 95);
+}
+
+.experience .section__list-item {
+  height: 130px;
+}
+
+.section__list-item .name {
+  margin-bottom: 8px;
+  font-size: 1.2em;
+}
+.section__list-item .comp {
+
+  font-size: 1.05em;
+}
+
+.section__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.left ,
+.right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.left {
+  width: 45%;    
+}
+
+.right {
+  /* tex-align: right; */
+  width: 49%;    
+}
+
+.name {
+  font-weight: bold;
+}
+
+  
+.skills__item {
+  margin-bottom: 10px;  
+}
+
+.skills__item .right input{
+  display: none;
+}
+    
+label {
+  display: inline-block;  
+  width: 20px;
+  height: 20px;
+  background: #C3DEF3;
+  border-radius: 20px;
+  margin-right: 3px;
+}
+
+input:checked + label {
+  background: #79A9CE;
+}
+  
