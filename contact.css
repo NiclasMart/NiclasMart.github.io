@@ -20,12 +20,29 @@ img {
 
 }
 
+h1 {
+  margin-bottom: 30px;
+}
+
 .contact h2 {
   margin-right: 0.7em;
+  font-size: 1.1em;
 }
 
 .contact div {
   display: flex;
-  margin-left: 15px;
+  
   align-items: baseline;
+}
+
+.contact p {
+  margin-right: 2.5em;
+}
+
+.contact a {
+  line-height: 2em;
+  margin-left: 15px;
+}
+ul {
+  margin: 0 0;
 }
