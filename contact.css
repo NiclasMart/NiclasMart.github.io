@@ -46,3 +46,24 @@ h1 {
 ul {
   margin: 0 0;
 }
+
+@media screen and (max-width: 850px) {
+
+  img {
+ 
+    margin: 0 10%;
+    
+  }
+  .main > div {
+  display: block;
+  }
+  
+}
+
+@media screen and (max-width: 580px) {
+
+  img {
+ 
+    height: 400px;
+  }
+}

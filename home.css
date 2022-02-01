@@ -1,12 +1,12 @@
 .introduction-card {
-  width: 75%;
+  width: 80%;
 	max-width: 100em;
   padding: 3em 0em;
   margin: 0 auto;
 }
 
 .introduction-card p {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .introduction-card h1 {
@@ -31,7 +31,7 @@
 
 .project-card {
   display: grid;
-  width: 60%;
+  width: 75%;
 	max-width: 100em;
   padding-top: 1em;
   padding-bottom: 5em;
@@ -71,7 +71,7 @@
 	padding: 0;
 	list-style: none;
 	width: 75%;
-  height: 800px;
+
 }
 
 .highlight-grid li {
@@ -131,15 +131,20 @@
 	padding: 0 10px;
 }
 
-
+@media screen and (max-width: 1300px) {
+	.highlight-grid li {
+		width: 49%;
+	}
 
 @media screen and (max-width: 1190px) {
-	.highlight-grid li {
-		width: 50%;
-	}
+
+  .project-card img {
+    float: none;
+    max-width: 100%;
+  }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
 	.highlight-grid li {
 		width: 100%;
 	}
